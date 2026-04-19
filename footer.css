@@ -1,4 +1,17 @@
-.footer-info {
+:root {
+    --bg-dark: hsl(0, 0%, 0%);
+    --bg-base: hsl(0, 0%, 10%);
+    --bg-light: hsl(0, 0%, 20%); 
+    
+    --text: hsl(0, 0%, 95%);
+    --text-muted: hsl(0, 0%, 53%);
+}
+
+.footer-info{
     display: flex;
-    flex-direction: column;
+    max-width:980px;
+    margin: 0 auto;
+    padding: 1rem ;
+    font-size: 14px;
+    color: var(--text-muted);
 }
