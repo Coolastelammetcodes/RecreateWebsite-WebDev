@@ -1,0 +1,23 @@
+.logo{
+    width: 12px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding: 2;
+}
+
+body{
+    margin: 0;
+}
