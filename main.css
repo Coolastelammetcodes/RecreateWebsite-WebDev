@@ -1,9 +1,40 @@
 .product-section {
-    height: 500px;
+    height: 632px;
     background-size: cover;
     background-position: bottom;
 }
 
 .iphone-section {
     background-image: url(https://www.apple.com/v/home/cm/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_medium_2x.jpg);
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.primary {
+    background-color: #0071e3;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.secondary {
+    border: 1px solid #0071e3;
+    color: #0071e3;
+    padding: 12px 22px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.secondary:hover {
+    background-color: #0071e3;
+    color: white;
+}
+
+.btn {
+    transition: all 0.3s ease;
 }
