@@ -1,0 +1,9 @@
+.product-section {
+    height: 500px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.iphone-section {
+    background-image: url(https://www.apple.com/v/home/cm/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_medium_2x.jpg);
+}
