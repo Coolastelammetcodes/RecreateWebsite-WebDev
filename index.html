@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="icons.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
-
 </head>
 
 <body>
@@ -51,10 +50,11 @@
                     purchase new eligible AirPods or accessories (“Promotion Product”) in the same transaction between
                     April 16, 2026 and May 16, 2026.
                     Only at Apple Store locations. Additional restrictions apply. View full terms and conditions of
-                    offer here.</li>
-                <br>
+                    offer here.
+                </li>
+                
                 <li> Feature and service availability varies by country and region. Learn more.</li>
-                <br>
+                
                 <li> Trade‑in values will vary based on the condition, year, and configuration of your eligible
                     trade‑in device. Not all devices are eligible for credit.
                     You must be at least the age of majority to be eligible to trade in for credit or for an Apple Gift
@@ -186,6 +186,43 @@
                 </ul> 
             </details>
         </section>
+        
+        <script>
+            const breakpoint = 834;
+            const details = document.querySelectorAll('.footer-links details');
+            const summaries = document.querySelectorAll('.footer-links summary');
+
+            function handleFooterAccordion() {
+                if (window.innerWidth >= breakpoint) {
+                    // Desktop → öppna alla
+                    details.forEach(d => {
+                        d.setAttribute('open', '');
+                    });
+                } else {
+                    // Mobil → stäng alla
+                    details.forEach(d => {
+                        d.removeAttribute('open');
+                    });
+                }
+            }
+
+            // kör direkt
+            handleFooterAccordion();
+
+            // kör vid resize
+            window.addEventListener('resize', handleFooterAccordion);
+
+            function handleSummaryClick(e) {
+                if (window.innerWidth >= breakpoint) {
+                    e.preventDefault(); // stoppar accordion
+                }
+            }
+
+            summaries.forEach(s => {
+                s.addEventListener('click', handleSummaryClick);
+            });
+        </script>
+
     </footer>
 </body>
 
