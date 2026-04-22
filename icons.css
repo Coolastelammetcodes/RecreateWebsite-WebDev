@@ -1,6 +1,7 @@
 .icons {
     display: flex;
-    font-size: 10px;
-    gap: 1.5rem;
+    justify-content: space-between;
+    font-size: 0.2px;
+    gap: 1.8rem;
     align-items: center;
 }

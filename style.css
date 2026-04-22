@@ -1,6 +1,6 @@
 .logo {
     display: block;
-    width: 14px;
+    width: 13px;
 }
 
 .nav-container {
@@ -14,32 +14,39 @@
 
 header {
     background-color: #fafafa;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
+    gap: 2rem;
     align-items: center;
     height: 44px;
     padding: 0 20px;
+}
+
+.navbar li {
+    white-space: nowrap;
 }
 
 body {
     margin: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 950px) {
     .menu {
         display: flex;
-        gap: 2.8rem;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1.5rem;
+        flex: 1;
         list-style: none;
         margin: 0;
         padding: 0;
         font-size: 13px;
         font-weight: 300;
         color: #1d1d1f;
-
-
     }
 
     .icons span:last-child {
