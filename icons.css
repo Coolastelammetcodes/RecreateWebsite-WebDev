@@ -1,7 +1,9 @@
+.icons .material-symbols-outlined {
+    font-size: 20px;
+}
+
 .icons {
     display: flex;
-    justify-content: space-between;
-    font-size: 0.2px;
-    gap: 1.8rem;
+    gap: 1.9rem;
     align-items: center;
 }
