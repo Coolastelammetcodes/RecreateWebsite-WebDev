@@ -4,10 +4,15 @@
     background-repeat: no-repeat;
     background-position: bottom;
     padding-top: 40px;
+    margin-bottom: 0.6rem;
 }
 
 .iphone-section {
     background-image: url(https://www.apple.com/v/home/cm/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_small_2x.jpg);
+}
+
+.macbook-neo-section{
+    background-image: url(https://www.apple.com/v/home/cm/images/heroes/macbook-neo/hero_macbook_neo__gnm3snkti4a6_medium_2x.jpg)
 }
 
 .ipadair-section {
@@ -71,8 +76,11 @@
     }
 
     .iphone-section {
-        background-image: url(https://www.apple.com/v/home/cm/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_medium_2x.jpg);
-        ;
+        background-image: url(https://www.apple.com/v/home/cm/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_large_2x.jpg)
+    }
+
+    .macbook-neo-section{
+        background-image: url(https://www.apple.com/v/home/cm/images/heroes/macbook-neo/hero_macbook_neo__gnm3snkti4a6_large_2x.jpg);
     }
 }
 
