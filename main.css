@@ -2,6 +2,7 @@
     height: 500px;
     background-size: cover;
     background-position: bottom;
+    padding-top: 40px;
 }
 
 .iphone-section {
@@ -17,17 +18,21 @@
 .primary {
     background-color: #0071e3;
     color: white;
-    padding: 7px 15px;
-    border-radius: 25px;
+    padding: 6px 14px;
+    border-radius: 22px;
     text-decoration: none;
 }
 
 .secondary {
     border: 1px solid #0071e3;
     color: #0071e3;
-    border-radius: 25px;
-    padding: 7px 15px;
+    border-radius: 22px;
+    padding: 6px 14px;
     text-decoration: none;
+}
+
+.primary:hover {
+    opacity: 0.85;
 }
 
 .secondary:hover {
