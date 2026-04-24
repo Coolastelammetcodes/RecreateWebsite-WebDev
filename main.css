@@ -9,6 +9,10 @@
     background-image: url(https://www.apple.com/v/home/cm/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_small_2x.jpg);
 }
 
+.ipadair-section {
+    background-image: url(https://www.apple.com/v/home/cm/images/heroes/ipad-air-m4/hero_ipad_air_m4__ew8k92mk1w6e_small_2x.jpg);
+}
+
 .buttons {
     display: flex;
     gap: 1rem;
@@ -18,7 +22,7 @@
 .primary {
     background-color: #0071e3;
     color: white;
-    padding: 6px 14px;
+    padding: 7px 15px;
     border-radius: 22px;
     text-decoration: none;
 }
@@ -27,7 +31,7 @@
     border: 1px solid #0071e3;
     color: #0071e3;
     border-radius: 22px;
-    padding: 6px 14px;
+    padding: 7px 15px;
     text-decoration: none;
 }
 
@@ -68,5 +72,31 @@
     .iphone-section {
         background-image: url(https://www.apple.com/v/home/cm/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_medium_2x.jpg);
         ;
+    }
+}
+
+@media (min-width: 950px) {
+    .ipadair-section {
+        background-image: url(https://www.apple.com/v/home/cm/images/heroes/ipad-air-m4/hero_ipad_air_m4__ew8k92mk1w6e_large_2x.jpg);
+    }
+
+    .product-section {
+        height: 630px;
+    }
+
+    .h2 {
+        font-size: 52px;
+    }
+
+    .p {
+        font-size: 26px;
+    }
+
+    .primary {
+        padding: 12px 22px;
+    }
+
+    .secondary {
+        padding: 12px 22px;
     }
 }
