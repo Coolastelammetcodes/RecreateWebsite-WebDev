@@ -1,6 +1,7 @@
 .product-section {
     height: 500px;
-    background-size: cover;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
     background-position: bottom;
     padding-top: 40px;
 }
@@ -88,7 +89,7 @@
         font-size: 52px;
     }
 
-    .p {
+    .p-ipad {
         font-size: 26px;
     }
 
